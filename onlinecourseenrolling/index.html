@@ -1,0 +1,48 @@
+<html>
+<title>Online course booking</title>
+<head>
+     <h1>Online course registration</h1> 
+    <!-- <link rel="stylesheet" href="style/style1.css"> -->
+</head>
+<body>
+    <form>
+         <div id="Home page">
+            <button type="button"  id="submit" value="Register" >Register</button>
+            <button type="button"  id="login" value="login">Login</button>
+        </div> 
+        <br>
+        <!-- registration -->
+        <div id="users">
+            <label>username</label>
+            <input type="text" id="name" placeholder="name"><br>
+            <label>Age</label>
+            <input type="number" id="age" placeholder="Age"><br>
+            <label>Mobile Number</label>
+            <input type="number" id="mobile" placeholder="Mobile number"><br>
+            <br>
+            <button type="button" onclick="register()"  id="submit" value="Register">Signin</button>
+
+        </div>
+        <!-- login -->
+        <div id="login">
+            <label>loginid</label>
+            <input type="text" id="log" placeholder="loginid"><br>
+            <button type="button" onclick="login()"  id="login" value="Login">Login</button>
+        </div>
+        <br>
+        <!-- courses Aviable -->
+        <div id="course">
+        Select the courses<br>
+        <select id="courses" >
+            <option value="C#">C#</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="JS">JS</option>
+            <option value="TS">TS</option>
+        </select><br>
+        <button type="button" id="enroll" onclick=" demo()"value="Enroll">Enroll</button><br>
+    </div>
+    </form>
+</body>
+ <script type="text/javascript" src="script/TS.js"></script> 
+</html>
